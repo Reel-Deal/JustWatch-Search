@@ -44,7 +44,7 @@ public class CurrencyConverter : ICurrencyConverter
 			throw new Exception("Currency converter not initialized.");
 		}
 
-		if (!string.IsNullOrEmpty(currencyCode) && _rates != null && _rates.Rates.ContainsKey(currencyCode))
+		if (!string.IsNullOrEmpty(currencyCode) && _rates != null && _rates.Rates.ContainsKey(currencyCode) && _rates.Rates[currencyCode] > 0)
 		{
 			decimal exchangeRate = _rates.Rates[currencyCode];
 			return Math.Round(amount / exchangeRate, 2);
