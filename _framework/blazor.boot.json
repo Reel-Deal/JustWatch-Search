@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JustWatchSearch",
   "resources": {
-    "hash": "sha256-btI4WS+UTnVF3jAa2yxR+4DlJMFGcLa+zyo01eOSN9M=",
+    "hash": "sha256-reYqv8npwq1h1TtlQQedPEUG3CdI7DvR5IkCXQd/UfE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-A16ka545FHaB+QXjyJ4exXh7XpBAAIFnX8YkC4xAng8="
     },
@@ -76,7 +76,7 @@
       "System.wasm": "sha256-25KTxVbx+rD8S9iyUye7jmbj1e4TZ5Ca+elup4oegJA=",
       "netstandard.wasm": "sha256-FTbfQhF9vis/T8DZbtHMtYrp4BCZsm4VQF7dXT6R1o8=",
       "System.Private.CoreLib.wasm": "sha256-BF+TcwAm/mwcrfBR14taQXmCnNidDEJImAU0mzYrfGI=",
-      "JustWatchSearch.wasm": "sha256-AKSRKdOLXvnl+tNmhd/IYklVl+tcrGJmL5Wa4lUWkuw="
+      "JustWatchSearch.wasm": "sha256-IUwJRfNOVuoBlcloB5IguycmbL18z/zYhf1zuXdHZXg="
     }
   },
   "cacheBootResources": true,
